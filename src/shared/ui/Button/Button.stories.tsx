@@ -3,7 +3,6 @@ import { fn } from '@storybook/test';
 
 import { Button } from './Button';
 
-
 const meta: Meta<typeof Button> = {
     title: 'Design Shares/Button',
     component: Button,
@@ -12,7 +11,6 @@ const meta: Meta<typeof Button> = {
 export default meta;
 
 type Story = StoryObj<typeof Button>;
-
 
 export const Primary: Story = {
     args: {

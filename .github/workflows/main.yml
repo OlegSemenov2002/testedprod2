@@ -19,7 +19,7 @@ jobs:
     - name: package install
       run: npm install
     - name: build production
-      run: npm run build:project
+      run: npm run build:prod
     - name: run linters
       run: npm run lint:ts
     - name: run linters scss

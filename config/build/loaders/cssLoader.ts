@@ -1,7 +1,7 @@
-import MiniCssExtractPlugin from "mini-css-extract-plugin";
-import {BuildOptions} from "../types/config";
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import { BuildOptions } from '../types/config';
 
-export function cssLoader(isDev:boolean){
+export function cssLoader(isDev:boolean) {
     return {
         test: /\.s[ac]ss$/i,
         use: [
@@ -19,5 +19,5 @@ export function cssLoader(isDev:boolean){
             },
             'sass-loader',
         ],
-    }
+    };
 }
