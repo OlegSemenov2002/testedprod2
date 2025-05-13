@@ -2,7 +2,7 @@ name: linting, testing, building
 on:
   push:
     branches: [main]
-  pull-request:
+  pull_request:
     branches: [main]
 jobs:
   pipeline:
@@ -10,7 +10,6 @@ jobs:
     strategy:
       matrix:
         node-version: [ 18]
-
     steps:
     - uses: actions/checkout@v2
     - name: Starting Node.js ${{Matrix.node-version}}
