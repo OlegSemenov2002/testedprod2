@@ -1,4 +1,9 @@
 {
+  "Aside": "Aside",
+  "Content": "Content",
+  "Footer": "Footer",
+  "Header": "Header",
+  "Main": "Main",
   "throw error": "throw error",
   "toggle": "toggle",
   "Главная": "Главная",
