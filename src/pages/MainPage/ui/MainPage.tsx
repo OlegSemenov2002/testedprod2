@@ -4,7 +4,7 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import cls from './MainPage.module.scss';
 
 const MainPage = () =>
-// const { t } = useTranslation();
+const { t } = useTranslation();
 
     (
         <div className={classNames('', {}, [cls.main_page])}>
